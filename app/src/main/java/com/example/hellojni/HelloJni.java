@@ -32,6 +32,7 @@ public class HelloJni extends AppCompatActivity {
         TextView tv = (TextView)findViewById(R.id.hello_textview);
         tv.setText( stringFromJNI() );
         int x = 100;
+        int y = 200;
     }
     /* A native method that is implemented by the
      * 'hello-jni' native library, which is packaged
